@@ -161,7 +161,7 @@ body {
 
 .container {
   padding: 0 10px;
-  max-width: 320px;
+  min-width: 320px;
   width: 100%;
   margin: 0 auto;
 }
@@ -196,25 +196,6 @@ a {
   cursor: pointer;
 }
 
-.section-main .container {
-  min-height: 400px;
-  background: url("../images/mobile/image-arrow1.jpg") no-repeat;
-  background-position: bottom center;
-}
-@media screen and (min-width: 768px) {
-  .section-main .container {
-    min-height: 500px;
-    background: url("../images/tablet/image-arrow2.jpg") no-repeat;
-    background-position: bottom center;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .section-main .container {
-    min-height: 650px;
-    background: url("../images/desktop/image-arrow3.jpg") no-repeat;
-    background-position: bottom center;
-  }
-}
 .section-main__title {
   font-family: "RedHatDisplay600", sans-serif;
   font-size: 30px;

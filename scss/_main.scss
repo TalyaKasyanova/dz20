@@ -4,27 +4,6 @@
 
     &-main {
 
-        .container {
-
-            min-height: 400px;
-            background: url("../images/mobile/image-arrow1.jpg") no-repeat;
-            background-position: bottom center;
-
-            @media screen and (min-width: 768px) {
-                min-height: 500px;
-                background: url("../images/tablet/image-arrow2.jpg") no-repeat;
-                background-position: bottom center;
-            }
-
-            @media screen and (min-width: 1440px) {
-                min-height: 650px;
-                background: url("../images/desktop/image-arrow3.jpg") no-repeat;
-                background-position: bottom center;
-            }
-
-        }
-
-
         &__title {
             font-family: $title-font;
             font-size: 30px;
